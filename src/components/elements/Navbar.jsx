@@ -9,7 +9,7 @@ function Navbar() {
         <nav className="w-full flex justify-between">
           <div className="flex flex-1 items-center ml-5">
             <Link to={"/"}>
-              <h1 className="text-white text-lg">Fakestore</h1>
+              <h1 className="text-white text-2xl font-jaro">Fakestore</h1>
             </Link>
           </div>
           <div className="flex flex-1 justify-end items-center mr-5">

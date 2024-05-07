@@ -11,8 +11,8 @@ function Hero() {
           <h1 className="text-xl uppercase font-semibold tracking-widest text-white lg:w-[464px]">
             Revolutionize Your Shopping Experience with Us
           </h1>
-          <button className="w-40 border-2 border-fourth rounded-sm bg-white text-second p-2 mt-5 text-xs font-medium hover:bg-second hover:text-white transition-all">
-            SHOP NOW
+          <button className="w-40 border-2 border-fourth rounded-sm bg-white text-second p-2 mt-5 text-xs font-medium uppercase hover:bg-second hover:text-white transition-all">
+            Shop Now
           </button>
         </div>
       </div>
