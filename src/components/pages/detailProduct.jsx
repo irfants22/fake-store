@@ -20,6 +20,7 @@ function DetailProduct() {
   const getDetailProducts = async (id) => {
     dispatch(setLoadingStatus());
     try {
+      dispatch(addProductDetailData({}));
       const { data } = await axios.get(
         `https://fakestoreapi.com/products/${id}`
       );
