@@ -17,11 +17,12 @@ export default {
         'fourth': '#FFCDEA'
       },
       backgroundImage: {
+        'cart': "url('/src/assets/images/cart.png')",
         'hero': "url('/src/assets/images/hero-bg.jpg')",
         'men': "url('/src/assets/images/men-cat.png')",
         'women': "url('/src/assets/images/women-cat.png')",
         'jewelry': "url('/src/assets/images/jewelry-cat.png')",
-        'furniture': "url('/src/assets/images/furniture-cat.png')",
+        'electronic': "url('/src/assets/images/electronic-cat.png')",
       }
     },
   },

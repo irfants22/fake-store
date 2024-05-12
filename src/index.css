@@ -12,7 +12,7 @@
 
 @layer components {
   .category-card {
-    @apply h-80 bg-neutral-200 rounded-sm flex justify-center items-center;
+    @apply h-80 bg-white shadow shadow-neutral-300 rounded-sm flex justify-center items-center;
   }
 
   .category-card-img {
@@ -20,10 +20,22 @@
   }
 
   .category-card-hover {
-    @apply w-full h-full flex justify-center items-center bg-black opacity-0 group-hover:opacity-70 transition-all;
+    @apply w-full h-full flex justify-center items-center bg-black rounded-sm opacity-0 group-hover:opacity-70 transition-all;
   }
 
   .category-card-title {
     @apply text-center text-white text-2xl font-normal uppercase tracking-widest;
+  }
+
+  .footer-list {
+    @apply flex justify-start items-center gap-2;
+  }
+
+  .footer-text {
+    @apply text-white text-xs font-normal capitalize hover:translate-x-1 hover:text-third transition;
+  }
+
+  .footer-text-icon {
+    @apply text-third text-sm font-medium;
   }
 }
