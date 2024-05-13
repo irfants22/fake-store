@@ -12,7 +12,7 @@ function Item({ item }) {
 
   return (
     <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-2 p-4 transition">
-      <section className="w-full h-[300px] sm:h-[350px] flex justify-center items-center lg:col-start-1 lg:col-end-3 transition">
+      <section className="w-full h-[280px] sm:h-[350px] flex justify-center items-center lg:col-start-1 lg:col-end-3 transition">
         <div className="w-64 sm:w-2/2 bg-transparent">
           <img
             src={image}
@@ -22,7 +22,7 @@ function Item({ item }) {
           />
         </div>
       </section>
-      <section className="w-full h-[300px] sm:h-[350px] flex flex-col justify-center items-center lg:col-start-3 lg:col-end-6 gap-2 p-2 transition">
+      <section className="w-full h-max sm:h-[350px] flex flex-col justify-center items-center lg:col-start-3 lg:col-end-6 gap-2 p-2 transition">
         <div className="w-full">
           <p className="text-gray-400 text-xs font-normal uppercase">
             #{category}

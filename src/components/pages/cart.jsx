@@ -14,7 +14,7 @@ function Cart() {
   }, []);
 
   return (
-    <>
+    <div className="min-h-screen">
       <div className="mt-4">
         <TitleBar>Cart</TitleBar>
         <div className="grid grid-cols-1 px-5 md:px-10 xl:px-[60px] gap-3">
@@ -30,10 +30,7 @@ function Cart() {
           </div>
         )}
       </div>
-      <div className="mt-40">
-        <Footer />
-      </div>
-    </>
+    </div>
   );
 }
 

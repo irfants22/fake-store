@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Navbar from "./components/elements/Navbar";
+import Layout from "./components/elements/Layout";
 import Home from "./components/pages/home";
 import Product from "./components/pages/product";
 import DetailProduct from "./components/pages/detailProduct";
@@ -8,7 +8,7 @@ import ProductList from "./components/elements/ProductList";
 
 const router = createBrowserRouter([
   {
-    element: <Navbar />,
+    element: <Layout />,
     children: [
       {
         path: "/",

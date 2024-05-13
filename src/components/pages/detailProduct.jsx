@@ -38,7 +38,7 @@ function DetailProduct() {
   }, [productId]);
 
   return (
-    <>
+    <div className="min-h-screen">
       <div className="mt-4">
         <TitleBar>Detail Product</TitleBar>
         <div className="w-full flex justify-center">
@@ -49,10 +49,7 @@ function DetailProduct() {
           )}
         </div>
       </div>
-      <div className="mt-40">
-        <Footer />
-      </div>
-    </>
+    </div>
   );
 }
 

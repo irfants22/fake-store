@@ -9,7 +9,7 @@ function Home() {
   }, []);
 
   return (
-    <>
+    <div className="min-h-screen">
       <div>
         <Hero />
         <div className="w-full mt-14 mb-2">
@@ -19,10 +19,7 @@ function Home() {
         </div>
         <CategoryCard />
       </div>
-      <div className="mt-40">
-        <Footer />
-      </div>
-    </>
+    </div>
   );
 }
 

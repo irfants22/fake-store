@@ -33,7 +33,7 @@ function Product() {
   }, [URL]);
 
   return (
-    <>
+    <div className="min-h-screen">
       <div className="mt-4">
         <TitleBar>products</TitleBar>
         <div className="grid grid-cols-1">
@@ -41,10 +41,7 @@ function Product() {
           <Outlet />
         </div>
       </div>
-      <div className="mt-40">
-        <Footer />
-      </div>
-    </>
+    </div>
   );
 }
 
